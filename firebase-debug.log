@@ -1,25 +1,34 @@
-[debug] [2022-12-13T19:38:53.774Z] ----------------------------------------------------------------------
-[debug] [2022-12-13T19:38:53.785Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mojeeb\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
-[debug] [2022-12-13T19:38:53.787Z] CLI Version:   11.18.0
-[debug] [2022-12-13T19:38:53.788Z] Platform:      win32
-[debug] [2022-12-13T19:38:53.788Z] Node Version:  v18.12.1
-[debug] [2022-12-13T19:38:53.791Z] Time:          Tue Dec 13 2022 11:38:53 GMT-0800 (Pacific Standard Time)
-[debug] [2022-12-13T19:38:53.792Z] ----------------------------------------------------------------------
+[debug] [2022-12-13T19:49:57.534Z] ----------------------------------------------------------------------
+[debug] [2022-12-13T19:49:57.538Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mojeeb\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-12-13T19:49:57.539Z] CLI Version:   11.18.0
+[debug] [2022-12-13T19:49:57.540Z] Platform:      win32
+[debug] [2022-12-13T19:49:57.540Z] Node Version:  v18.12.1
+[debug] [2022-12-13T19:49:57.541Z] Time:          Tue Dec 13 2022 11:49:57 GMT-0800 (Pacific Standard Time)
+[debug] [2022-12-13T19:49:57.542Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-12-13T19:38:54.029Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-12-13T19:38:54.030Z] > authorizing via signed-in user (mojeebmhadi@gmail.com)
-[debug] [2022-12-13T19:38:54.030Z] [iam] checking project web-app-be63f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2022-12-13T19:38:54.033Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/web-app-be63f:testIamPermissions [none]
-[debug] [2022-12-13T19:38:54.034Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/web-app-be63f:testIamPermissions x-goog-quota-user=projects/web-app-be63f
-[debug] [2022-12-13T19:38:54.034Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/web-app-be63f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2022-12-13T19:39:05.892Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/web-app-be63f:testIamPermissions 200
-[debug] [2022-12-13T19:39:05.892Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/web-app-be63f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2022-12-13T19:39:05.896Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/web-app-be63f [none]
-[debug] [2022-12-13T19:39:10.126Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/web-app-be63f 200
-[debug] [2022-12-13T19:39:10.127Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/web-app-be63f {"projectId":"web-app-be63f","projectNumber":"1045217684595","displayName":"web-app","name":"projects/web-app-be63f","resources":{"hostingSite":"web-app-be63f"},"state":"ACTIVE","etag":"1_40743611-ea45-42a6-83d7-13e791fa11a3"}
+[debug] [2022-12-13T19:49:57.747Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-13T19:49:57.749Z] > authorizing via signed-in user (mojeebmhadi@gmail.com)
+[debug] [2022-12-13T19:49:57.749Z] [iam] checking project web-app-be63f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-13T19:49:57.754Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/web-app-be63f:testIamPermissions [none]
+[debug] [2022-12-13T19:49:57.755Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/web-app-be63f:testIamPermissions x-goog-quota-user=projects/web-app-be63f
+[debug] [2022-12-13T19:49:57.755Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/web-app-be63f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-13T19:49:58.746Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/web-app-be63f:testIamPermissions 200
+[debug] [2022-12-13T19:49:58.747Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/web-app-be63f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-13T19:49:58.749Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/web-app-be63f [none]
+[debug] [2022-12-13T19:49:59.900Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/web-app-be63f 200
+[debug] [2022-12-13T19:49:59.900Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/web-app-be63f {"projectId":"web-app-be63f","projectNumber":"1045217684595","displayName":"web-app","name":"projects/web-app-be63f","resources":{"hostingSite":"web-app-be63f"},"state":"ACTIVE","etag":"1_40743611-ea45-42a6-83d7-13e791fa11a3"}
 [info] 
 [info] === Deploying to 'web-app-be63f'...
 [info] 
 [info] i  deploying hosting 
-[debug] [2022-12-13T19:39:10.148Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/web-app-be63f/versions [none]
-[debug] [2022-12-13T19:39:10.148Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/web-app-be63f/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-12-13T19:49:59.914Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/web-app-be63f/versions [none]
+[debug] [2022-12-13T19:49:59.914Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/web-app-be63f/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-12-13T19:50:01.853Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/web-app-be63f/versions 200
+[debug] [2022-12-13T19:50:01.854Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/web-app-be63f/versions {"name":"projects/1045217684595/sites/web-app-be63f/versions/7fc8b277ce07181f","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[web-app-be63f]: beginning deploy... 
+[info] i  hosting[web-app-be63f]: found 4 files in public 
+[debug] [2022-12-13T19:50:01.891Z] [hosting] uploading with 200 concurrency
+[debug] [2022-12-13T19:50:01.903Z] [hosting] hash cache [cHVibGlj] stored for 4 files
+[debug] [2022-12-13T19:50:01.903Z] [hosting][hash queue][FINAL] {"max":2,"min":1,"avg":1,"active":0,"complete":4,"success":4,"errored":0,"retried":0,"total":4,"elapsed":6}
+[debug] [2022-12-13T19:50:01.904Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/1045217684595/sites/web-app-be63f/versions/7fc8b277ce07181f:populateFiles [none]
+[debug] [2022-12-13T19:50:01.904Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1045217684595/sites/web-app-be63f/versions/7fc8b277ce07181f:populateFiles {"files":{"/home.html":"7e726e81b0e9870837bd34a1c20aab2535c035c448ee697c1c6ed14b6733eb16","/index.html":"220f72c50e78dd7db6a0e2e8783fa44d71c87868469dfeb3d87240d358d28d2d","/pexels-og-mpango-3041110.jpg":"739ad0662ec91fb4139813ae3c9f6ed00a74307190f2df1dc686a1ceeedd899b","/style.css":"c9d4079b8c5dfb61399c284011a8c326254faa32596d73e2ea68392ad7df79b9"}}
